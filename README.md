@@ -1,14 +1,9 @@
 # Email Spam Classifier
-
-# 
-
 #### A Machine Learning-based web application that classifies messages as Spam or Not Spam (Ham) using NLP techniques and a trained classification model.
 
 #### 
 
 # Features
-
-# 
 
 ### 1.Spam and Ham message detection
 
@@ -22,8 +17,6 @@
 
 
 # Tech Stack
-
-### 
 
 ### 1.Python
 
@@ -57,8 +50,6 @@
 
 # └── templates/
 
-
-
 # Installation
 
 ### bash
@@ -71,7 +62,6 @@
 
 ### python app.py
 
-# 
 
 # Example
 
@@ -81,9 +71,6 @@
 
 ### Congratulations! You have won ₹10,000.
 
-# 
-
-# 
 
 ## Output:
 
@@ -91,7 +78,6 @@
 
 ### Spam
 
-# 
 
 # Future Improvements:
 
