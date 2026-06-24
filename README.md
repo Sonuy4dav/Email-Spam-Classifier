@@ -40,11 +40,7 @@
 
 ### 7.HTML \& CSS
 
-# 
-
 # Project Structure
-
-# 
 
 # text
 
@@ -62,13 +58,9 @@
 
 # └── templates/
 
-# 
 
-# 
 
 # Installation
-
-# 
 
 ### bash
 
@@ -82,15 +74,9 @@
 
 # 
 
-# 
-
 # Example
 
-# 
-
 ## Input:
-
-### 
 
 ### text
 
@@ -101,8 +87,6 @@
 # 
 
 ## Output:
-
-# 
 
 ### text
 
