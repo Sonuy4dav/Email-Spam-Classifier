@@ -1,64 +1,54 @@
-# \# 📧 Email Spam Classifier
+# Email Spam Classifier
 
 # 
 
-# A Machine Learning-powered web application that classifies email or SMS messages as \*\*Spam\*\* or \*\*Not Spam (Ham)\*\*. The project uses Natural Language Processing (NLP) techniques for text preprocessing and vectorization, along with a trained classification model to detect unwanted messages.
+#### A Machine Learning-based web application that classifies messages as Spam or Not Spam (Ham) using NLP techniques and a trained classification model.
+
+#### 
+
+# Features
 
 # 
 
-# \## 🚀 Features
+### 1.Spam and Ham message detection
+
+### 2.Text preprocessing and cleaning
+
+### 3.TF-IDF vectorization
+
+### 4.Fast predictions
+
+### 5.Simple web interface built with Flask
 
 # 
 
-# \* Detects whether a message is Spam or Ham
+# Tech Stack
 
-# \* User-friendly web interface
+### 
 
-# \* Text preprocessing and cleaning
+### 1.Python
 
-# \* TF-IDF Vectorization
+### 2.Flask
 
-# \* Trained Machine Learning Model
+### 3.Scikit-learn
 
-# \* Fast and accurate predictions
+### 4.Pandas
 
-# \* Easy deployment with Flask
+### 5.NumPy
 
-# 
+### 6.NLTK
 
-# \## 🛠️ Tech Stack
-
-# 
-
-# \* Python
-
-# \* Flask
-
-# \* Scikit-learn
-
-# \* Pandas
-
-# \* NumPy
-
-# \* NLTK
-
-# \* TF-IDF Vectorizer
-
-# \* HTML
-
-# \* CSS
+### 7.HTML \& CSS
 
 # 
 
-# \## 📂 Project Structure
+# Project Structure
 
 # 
 
-# ```text
+# text
 
 # Email-Spam-Classifier/
-
-# │
 
 # ├── app.py
 
@@ -70,235 +60,63 @@
 
 # ├── static/
 
-# │   └── style.css
-
-# ├── templates/
-
-# │   └── index.html
-
-# └── README.md
-
-# ```
+# └── templates/
 
 # 
 
-# \## ⚙️ Installation
+# 
+
+# Installation
 
 # 
 
-# \### 1. Clone the Repository
+### bash
+
+### git clone https://github.com/Sonuy4dav/Email-Spam-Classifier.git
+
+### cd Email-Spam-Classifier
+
+### pip install -r requirements.txt
+
+### python app.py
 
 # 
 
-# ```bash
+# 
 
-# git clone https://github.com/Sonuy4dav/Email-Spam-Classifier.git
-
-# ```
+# Example
 
 # 
 
-# \### 2. Navigate to Project Directory
+## Input:
 
 # 
 
-# ```bash
+#### text
 
-# cd Email-Spam-Classifier
-
-# ```
+#### Congratulations! You have won ₹10,000.
 
 # 
 
-# \### 3. Create Virtual Environment
+# 
+
+## Output:
 
 # 
 
-# ```bash
+### text
 
-# python -m venv venv
-
-# ```
+### Spam
 
 # 
 
-# \### 4. Activate Virtual Environment
+# Future Improvements:
 
-# 
+### Deep Learning models
 
-# \*\*Windows\*\*
+### Multi-language support
 
-# 
+### Cloud deployment
 
-# ```bash
-
-# venv\\Scripts\\activate
-
-# ```
-
-# 
-
-# \*\*Linux / Mac\*\*
-
-# 
-
-# ```bash
-
-# source venv/bin/activate
-
-# ```
-
-# 
-
-# \### 5. Install Dependencies
-
-# 
-
-# ```bash
-
-# pip install -r requirements.txt
-
-# ```
-
-# 
-
-# \### 6. Run the Application
-
-# 
-
-# ```bash
-
-# python app.py
-
-# ```
-
-# 
-
-# Open your browser and visit:
-
-# 
-
-# ```text
-
-# http://127.0.0.1:5000
-
-# ```
-
-# 
-
-# \## 📊 Machine Learning Workflow
-
-# 
-
-# 1\. Data Collection
-
-# 2\. Data Cleaning
-
-# 3\. Text Preprocessing
-
-# 4\. Feature Extraction using TF-IDF
-
-# 5\. Model Training
-
-# 6\. Model Evaluation
-
-# 7\. Web Application Deployment
-
-# 
-
-# \## 🎯 Example
-
-# 
-
-# \*\*Input\*\*
-
-# 
-
-# ```text
-
-# Congratulations! You have won ₹10,000. Click the link to claim your reward.
-
-# ```
-
-# 
-
-# \*\*Prediction\*\*
-
-# 
-
-# ```text
-
-# Spam
-
-# ```
-
-# 
-
-# \*\*Input\*\*
-
-# 
-
-# ```text
-
-# Hey, are we meeting tomorrow for the project discussion?
-
-# ```
-
-# 
-
-# \*\*Prediction\*\*
-
-# 
-
-# ```text
-
-# Not Spam (Ham)
-
-# ```
-
-# 
-
-# \## 🔮 Future Improvements
-
-# 
-
-# \* Deep Learning-based Spam Detection
-
-# \* Email Attachment Analysis
-
-# \* Real-time Email Filtering
-
-# \* Multi-language Spam Detection
-
-# \* Cloud Deployment
-
-# \* User Authentication
-
-# 
-
-# \## 👨‍💻 Author
-
-# 
-
-# \*\*Sonu Yadav\*\*
-
-# 
-
-# B.Tech Data Science Student
-
-# Aspiring AI/ML Engineer
-
-# 
-
-# GitHub: https://github.com/Sonuy4dav
-
-# 
-
-# \## ⭐ Support
-
-# 
-
-# If you found this project useful, consider giving it a star on GitHub.
-
-
+### Real-time email filtering
 
