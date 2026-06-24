@@ -20,7 +20,6 @@
 
 ### 5.Simple web interface built with Flask
 
-# 
 
 # Tech Stack
 
