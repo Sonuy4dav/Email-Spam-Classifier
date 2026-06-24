@@ -38,17 +38,18 @@
 
 # Email-Spam-Classifier/
 
-# ├── app.py
+### ├── app.py
 
-# ├── model.pkl
+### ├── model.pkl
 
-# ├── vectorizer.pkl
+### ├── vectorizer.pkl
 
-# ├── requirements.txt
+### ├── requirements.txt
 
-# ├── static/
+### ├── static/
 
-# └── templates/
+### └── templates/
+
 
 # Installation
 
