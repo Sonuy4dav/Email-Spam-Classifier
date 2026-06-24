@@ -90,11 +90,11 @@
 
 ## Input:
 
-# 
+### 
 
-#### text
+### text
 
-#### Congratulations! You have won ₹10,000.
+### Congratulations! You have won ₹10,000.
 
 # 
 
