@@ -62,8 +62,3 @@ Spam
 * Cloud deployment
 * Real-time email filtering
 
-## Author
-
-**Sonu Yadav**
-B.Tech Data Science Student
-
