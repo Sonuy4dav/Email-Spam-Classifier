@@ -1,91 +1,69 @@
 # Email Spam Classifier
-#### A Machine Learning-based web application that classifies messages as Spam or Not Spam (Ham) using NLP techniques and a trained classification model.
 
-#### 
+A Machine Learning-based web application that classifies messages as **Spam** or **Not Spam (Ham)** using NLP techniques and a trained classification model.
 
-# Features
+## Features
 
-### 1.Spam and Ham message detection
+* Spam and Ham message detection
+* Text preprocessing and cleaning
+* TF-IDF vectorization
+* Fast predictions
+* Simple web interface built with Flask
 
-### 2.Text preprocessing and cleaning
+## Tech Stack
 
-### 3.TF-IDF vectorization
+* Python
+* Flask
+* Scikit-learn
+* Pandas
+* NumPy
+* NLTK
+* HTML & CSS
 
-### 4.Fast predictions
+## Project Structure
 
-### 5.Simple web interface built with Flask
+```text
+Email-Spam-Classifier/
+├── app.py
+├── model.pkl
+├── vectorizer.pkl
+├── requirements.txt
+├── static/
+└── templates/
+```
 
+## Installation
 
-# Tech Stack
+```bash
+git clone https://github.com/Sonuy4dav/Email-Spam-Classifier.git
+cd Email-Spam-Classifier
+pip install -r requirements.txt
+python app.py
+```
 
-### 1.Python
+## Example
 
-### 2.Flask
+**Input:**
 
-### 3.Scikit-learn
+```text
+Congratulations! You have won ₹10,000.
+```
 
-### 4.Pandas
+**Output:**
 
-### 5.NumPy
+```text
+Spam
+```
 
-### 6.NLTK
+## Future Improvements
 
-### 7.HTML \& CSS
+* Deep Learning models
+* Multi-language support
+* Cloud deployment
+* Real-time email filtering
 
-# Project Structure
+## Author
 
-# text
-
-# Email-Spam-Classifier/
-
-### ├── app.py
-
-### ├── model.pkl
-
-### ├── vectorizer.pkl
-
-### ├── requirements.txt
-
-### ├── static/
-
-### └── templates/
-
-
-# Installation
-
-### bash
-
-### git clone https://github.com/Sonuy4dav/Email-Spam-Classifier.git
-
-### cd Email-Spam-Classifier
-
-### pip install -r requirements.txt
-
-### python app.py
-
-
-# Example
-
-## Input:
-
-### text
-
-### Congratulations! You have won ₹10,000.
-
-
-## Output:
-
-### text
-
-### Spam
-
-# Future Improvements:
-
-### Deep Learning models
-
-### Multi-language support
-
-### Cloud deployment
-
-### Real-time email filtering
+**Sonu Yadav**
+B.Tech Data Science Student
 
